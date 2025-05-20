@@ -9,7 +9,7 @@
     "scripts": {
         "prepare": "npm run build",
         "prepare-export-properties": "node prepare.js",
-        "build": "tsup src/index.tsx --format esm,cjs --dts --minify --external react,react-native",
+        "build": "tsup src/index.tsx --format esm,cjs --dts --minify --sourcemap --external react,react-native",
         "dev": "expo start --clear",
         "format": "biome check --write .",
         "lint": "biome lint . && tsc --noEmit",

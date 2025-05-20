@@ -13,7 +13,6 @@
 
 import { decode } from "html-entities";
 import { type ReactNode, createElement, useCallback } from "react";
-import type React from "react";
 import { Text } from "react-native";
 import type { RendererAppearance, RendererConfigFull } from "../types";
 
