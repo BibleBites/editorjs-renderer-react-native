@@ -11,7 +11,7 @@
  *
  */
 
-import React from "react";
+import type React from "react";
 import { useMemo } from "react";
 import { Text, View } from "react-native";
 import { DEFAULT_RENDERER_CONFIG } from "./default";
@@ -55,7 +55,7 @@ function getComponent(
     config: RendererConfigFull,
     appearance: RendererAppearance,
     block: EditorJSBlock,
-): JSX.Element {
+): React.ReactElement {
     const Component = config.components[block.type];
     if (Component) {
         return (
