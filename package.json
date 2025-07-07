@@ -22,7 +22,7 @@
         "html-entities": "^2.5.2",
         "react": "19.0.0",
         "react-dom": "19.0.0",
-        "react-native": "0.79.2",
+        "react-native": "0.79.5",
         "tsup": "^8.4.0"
     },
     "devDependencies": {
