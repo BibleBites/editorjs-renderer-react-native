@@ -1,5 +1,5 @@
 {
-    "name": "@biblebytes/editorjs-renderer-react-native",
+    "name": "@biblebites/editorjs-renderer-react-native",
     "version": "0.0.0",
     "export-properties": {
         "main": "./dist/index.js",
@@ -15,7 +15,7 @@
         "lint": "biome lint . && tsc --noEmit",
         "test": "echo \"Error: no test specified\""
     },
-    "author": "BibleBytes",
+    "author": "BibleBites",
     "license": "MIT",
     "description": "A React Native viewer for JSON created by EditorJs",
     "dependencies": {
