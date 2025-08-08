@@ -11,11 +11,10 @@
  *
  */
 
-import { useParser } from "@/src/parser";
-import { useStyle } from "@/src/theme";
-import React from "react";
 import { useMemo } from "react";
 import { Text, View } from "react-native";
+import { useParser } from "@/src/parser";
+import { useStyle } from "@/src/theme";
 import { styles as stylesheet } from "./styles";
 import type { QuoteProps } from "./types";
 

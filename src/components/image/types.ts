@@ -11,7 +11,6 @@
  *
  */
 
-import type { RendererComponentProps } from "@/src/types";
 import type {
     ImageProps as NativeImageProps,
     ImageStyle as NativeImageStyle,
@@ -20,6 +19,7 @@ import type {
     ViewProps,
     ViewStyle,
 } from "react-native";
+import type { RendererComponentProps } from "@/src/types";
 
 export type ImageProps = RendererComponentProps & {
     data: {

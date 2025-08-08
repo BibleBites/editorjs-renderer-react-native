@@ -11,8 +11,6 @@
  *
  */
 
-import { useStyle } from "@/src/theme";
-import React from "react";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import {
     type LayoutChangeEvent,
@@ -20,6 +18,7 @@ import {
     Text,
     View,
 } from "react-native";
+import { useStyle } from "@/src/theme";
 import { styles as stylesheet } from "./styles";
 import type { ImageProps } from "./types";
 

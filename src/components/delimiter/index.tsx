@@ -11,10 +11,9 @@
  *
  */
 
-import { useStyle } from "@/src/theme";
 import { decode } from "html-entities";
-import React from "react";
 import { Text, View } from "react-native";
+import { useStyle } from "@/src/theme";
 import { styles as stylesheet } from "./styles";
 import type { DelimiterProps } from "./types";
 

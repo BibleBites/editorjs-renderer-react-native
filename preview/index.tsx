@@ -10,12 +10,12 @@
  *
  */
 
-import { Image, type ImageProps, LinkTool, Renderer } from "@/src";
-import { DEFAULT_THEME_STYLE } from "@/src/theme/style";
-import { RendererAppearance, type RendererConfig } from "@/src/types";
 import { useState } from "react";
 import { ScrollView, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { Image, type ImageProps, LinkTool, Renderer } from "@/src";
+import { DEFAULT_THEME_STYLE } from "@/src/theme/style";
+import { RendererAppearance, type RendererConfig } from "@/src/types";
 import { EDITOR_DATA } from "./data";
 import { Navigation } from "./navigation";
 
