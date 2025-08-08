@@ -12,7 +12,7 @@
  */
 
 import { decode } from "html-entities";
-import { type ReactNode, createElement, useCallback } from "react";
+import { createElement, type ReactNode, useCallback } from "react";
 import { Text } from "react-native";
 import type { RendererAppearance, RendererConfigFull } from "../types";
 
