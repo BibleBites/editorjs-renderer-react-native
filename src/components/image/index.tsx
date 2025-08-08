@@ -74,7 +74,7 @@ export const Image = (props: ImageProps) => {
             style={[styles.container, props.style?.container]}
             {...props.style?.container}
         >
-            <View>
+            <View style={{ width: "100%" }}>
                 {hasErrorOnSize ? (
                     <NativeImage
                         source={{ uri: imageURL }}
@@ -84,7 +84,7 @@ export const Image = (props: ImageProps) => {
                 ) : (
                     <NativeImage
                         source={{ uri: imageURL }}
-                        style={[{ width, height }, props.style?.image]}
+                        style={[{ width: "100%", height }, props.style?.image]}
                         {...props.properties?.image}
                     />
                 )}
