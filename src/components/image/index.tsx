@@ -31,7 +31,6 @@ export const Image = (props: ImageProps) => {
         [props.data],
     );
     const styles = useStyle(stylesheet, props.appearance);
-    const [width, setWidth] = useState(100);
     const [height, setHeight] = useState(100);
     const [containerWidth, setContainerWidth] = useState(-1);
     const [hasErrorOnSize, setHasErrorOnSize] = useState(false);
@@ -47,7 +46,6 @@ export const Image = (props: ImageProps) => {
             const dimensions = props.getImageSize(file);
             if (dimensions) {
                 const [_width, _height] = dimensions;
-                setWidth(containerWidth);
                 setHeight((containerWidth * _height) / _width);
                 return;
             }
@@ -55,7 +53,6 @@ export const Image = (props: ImageProps) => {
         NativeImage.getSize(
             imageURL,
             (w, h) => {
-                setWidth(containerWidth);
                 setHeight((containerWidth * h) / w);
             },
             () => {
