@@ -11,10 +11,9 @@
  *
  */
 
-import { useStyle } from "@/src/theme";
-import React from "react";
 import { useMemo } from "react";
 import { Text } from "react-native";
+import { useStyle } from "@/src/theme";
 import { styles as stylesheet } from "./styles";
 import type { HeaderProps } from "./types";
 

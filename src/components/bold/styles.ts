@@ -11,10 +11,10 @@
  *
  */
 
-import { createStyle } from "@/src/theme";
 import { StyleSheet } from "react-native";
+import { createStyle } from "@/src/theme";
 
-export const styles = createStyle((theme) => {
+export const styles = createStyle(() => {
     return StyleSheet.create({
         bold: {
             fontWeight: "700",

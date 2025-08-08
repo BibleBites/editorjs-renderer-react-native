@@ -11,8 +11,8 @@
  *
  */
 
-import { createStyle } from "@/src/theme";
 import { StyleSheet } from "react-native";
+import { createStyle } from "@/src/theme";
 
 const MAX_IMAGE_HEIGHT = 100;
 

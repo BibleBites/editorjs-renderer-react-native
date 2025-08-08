@@ -11,8 +11,6 @@
  *
  */
 
-import { useStyle } from "@/src/theme";
-import React from "react";
 import { useCallback } from "react";
 import {
     Alert,
@@ -22,6 +20,7 @@ import {
     TouchableOpacity,
     View,
 } from "react-native";
+import { useStyle } from "@/src/theme";
 import { styles as stylesheet } from "./styles";
 import type { PersonalityProps } from "./types";
 

@@ -11,7 +11,6 @@
  *
  */
 
-import type { RendererComponentProps } from "@/src/types";
 import type {
     ImageProps,
     ImageStyle,
@@ -21,6 +20,7 @@ import type {
     ViewProps,
     ViewStyle,
 } from "react-native";
+import type { RendererComponentProps } from "@/src/types";
 
 export type LinkToolProps = RendererComponentProps & {
     data: {
