@@ -10,7 +10,7 @@
         }
     },
     "files": {
-        "includes": ["**", "!dist", "!node_modules"]
+        "includes": ["**", "!dist", "!.expo", "!node_modules"]
     },
     "formatter": {
         "enabled": true,
