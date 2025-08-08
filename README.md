@@ -7,7 +7,7 @@
 
 
 <p align="center">
-    <img alt="NPM Version" src="https://img.shields.io/npm/v/%biblebites%2Feditorjs-renderer-react-native"/>
+    <img alt="NPM Version" src="https://img.shields.io/npm/v/%40biblebites%2Feditorjs-renderer-react-native"/>
     <img src="https://github.com/BibleBites/editorjs-renderer-react-native/actions/workflows/testing.yml/badge.svg"/>
 </p>
 
