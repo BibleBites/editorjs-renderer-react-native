@@ -76,12 +76,12 @@ export const EDITOR_DATA: EditorJSData = {
             id: "link-1",
             type: "linkTool",
             data: {
-                link: "https://getbiblebytes.com",
+                link: "https://getbiblebites.com",
                 meta: {
-                    title: "BibleBytes",
-                    site_name: "BibleBytes",
+                    title: "BibleBites",
+                    site_name: "BibleBites",
                     description:
-                        "Engage with the Bible on a deeper level, in just a couple of minutes with our free Christian Bible study app, BibleBytes. Deepen your understanding of scripture",
+                        "Engage with the Bible on a deeper level, in just a couple of minutes with our free Christian Bible study app, BibleBites. Deepen your understanding of scripture",
                     image: {
                         url: "https://avatars.githubusercontent.com/u/168451918?s=200&v=4",
                     },
@@ -121,8 +121,8 @@ export const EDITOR_DATA: EditorJSData = {
             id: "image-1",
             type: "image",
             data: {
-                url: "https://mybiblebytes.com/img/BibleBytes-Thumbnail.png",
-                caption: "BibleBytes",
+                url: "https://getbiblebites.com/thumbnail.png",
+                caption: "BibleBites",
                 withBorder: false,
                 withBackground: false,
                 stretched: true,
