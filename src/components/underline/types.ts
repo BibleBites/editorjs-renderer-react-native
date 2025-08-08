@@ -11,8 +11,8 @@
  *
  */
 
-import type { RendererComponentProps } from "@/src/types";
 import type { TextProps, TextStyle } from "react-native";
+import type { RendererComponentProps } from "@/src/types";
 
 export type UnderlineProps = RendererComponentProps & {
     children?: React.ReactNode | undefined;

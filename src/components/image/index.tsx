@@ -11,8 +11,6 @@
  *
  */
 
-import { useStyle } from "@/src/theme";
-import React from "react";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import {
     type LayoutChangeEvent,
@@ -20,6 +18,7 @@ import {
     Text,
     View,
 } from "react-native";
+import { useStyle } from "@/src/theme";
 import { styles as stylesheet } from "./styles";
 import type { ImageProps } from "./types";
 
@@ -75,7 +74,7 @@ export const Image = (props: ImageProps) => {
             style={[styles.container, props.style?.container]}
             {...props.style?.container}
         >
-            <View>
+            <View style={{ width: "100%" }}>
                 {hasErrorOnSize ? (
                     <NativeImage
                         source={{ uri: imageURL }}
@@ -85,7 +84,7 @@ export const Image = (props: ImageProps) => {
                 ) : (
                     <NativeImage
                         source={{ uri: imageURL }}
-                        style={[{ width, height }, props.style?.image]}
+                        style={[{ width: "100%", height }, props.style?.image]}
                         {...props.properties?.image}
                     />
                 )}

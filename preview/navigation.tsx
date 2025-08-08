@@ -10,12 +10,11 @@
  *
  */
 
+import type { Dispatch, SetStateAction } from "react";
+import { StyleSheet, Switch, Text, View } from "react-native";
 import { createStyle, useStyle } from "@/src/theme";
 import type { ThemeStyle } from "@/src/theme/types";
 import { RendererAppearance } from "@/src/types";
-import React from "react";
-import { type Dispatch, type SetStateAction, useState } from "react";
-import { StyleSheet, Switch, Text, View } from "react-native";
 
 export const Navigation = (props: {
     appearance: RendererAppearance;

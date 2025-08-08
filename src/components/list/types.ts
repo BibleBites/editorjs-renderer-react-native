@@ -11,8 +11,8 @@
  *
  */
 
-import type { RendererComponentProps } from "@/src/types";
 import type { TextProps, TextStyle, ViewProps, ViewStyle } from "react-native";
+import type { RendererComponentProps } from "@/src/types";
 
 type ListConfig = {
     getLabel?: (index: number, depth: number) => string;
