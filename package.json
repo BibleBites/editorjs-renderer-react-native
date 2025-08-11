@@ -33,7 +33,7 @@
         "expo-router": "~5.1.4",
         "react-native-safe-area-context": "5.4.0",
         "react-native-web": "^0.20.0",
-        "typescript": "~5.8.3"
+        "typescript": "~5.9.2"
     },
     "files": [
         "dist/*"
