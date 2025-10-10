@@ -7,7 +7,7 @@
         "orientation": "portrait",
         "userInterfaceStyle": "automatic",
         "newArchEnabled": true,
-        "entryPoint": "./index.ts",
+        "entryPoint": "./index.tsx",
         "ios": {
             "supportsTablet": true,
             "bundleIdentifier": "com.yourname.yourapp"
