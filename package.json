@@ -26,7 +26,7 @@
         "html-entities": "^2.5.2"
     },
     "devDependencies": {
-        "@biomejs/biome": "2.1.4",
+        "@biomejs/biome": "2.2.5",
         "@types/react": "~19.1.10",
         "@types/react-native": "^0.72.8",
         "expo": "^54.0.13",

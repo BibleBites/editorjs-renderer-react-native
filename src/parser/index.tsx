@@ -114,7 +114,7 @@ export const useParser = () => {
             );
             const tagName = getTagName(firstMatchTag[0]);
             const closeTag = stringAfterTargetTag.match(
-                new RegExp(`<\/${tagName}>`),
+                new RegExp(`</${tagName}>`),
             );
             const nextOpenTag = matchTag(stringAfterTargetTag, DEFAULT_TAGS);
 

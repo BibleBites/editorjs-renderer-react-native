@@ -19,30 +19,30 @@ import type { DelimiterProps } from "./types";
 
 export const Delimiter = (props: DelimiterProps) => {
     const styles = useStyle(stylesheet, props.appearance);
-
-    function Asterisk() {
-        return (
-            <Text
-                style={[styles.delimiter, props.style?.delimiter]}
-                {...props.properties?.delimiter}
-            >
-                {decode("&ast;")}
-            </Text>
-        );
-    }
-
     return (
         <View
             aria-hidden
             style={[styles.container, props.style?.container]}
             {...props.properties?.container}
         >
-            <Asterisk />
-            <Asterisk />
-            <Asterisk />
+            <Asterisk {...props} />
+            <Asterisk {...props} />
+            <Asterisk {...props} />
         </View>
     );
 };
+
+function Asterisk(props: DelimiterProps) {
+    const styles = useStyle(stylesheet, props.appearance);
+    return (
+        <Text
+            style={[styles.delimiter, props.style?.delimiter]}
+            {...props.properties?.delimiter}
+        >
+            {decode("&ast;")}
+        </Text>
+    );
+}
 
 // Turn my heart toward your statutes and not toward selfish gain.
 // - Psalm 119:36
