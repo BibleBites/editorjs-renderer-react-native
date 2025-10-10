@@ -20,8 +20,7 @@
     "description": "A React Native viewer for JSON created by EditorJs",
     "peerDependencies": {
         "react": ">=18.0.0",
-        "react-native": ">=0.72.0",
-        "react-dom": ">=18.0.0"
+        "react-native": ">=0.72.0"
     },
     "dependencies": {
         "html-entities": "^2.5.2"
