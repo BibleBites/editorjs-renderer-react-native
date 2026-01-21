@@ -15,6 +15,10 @@
         "lint": "biome lint . && tsc --noEmit",
         "test": "echo \"Error: no test specified\""
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BibleBites/editorjs-renderer-react-native"
+    },
     "author": "BibleBites",
     "license": "MIT",
     "description": "A React Native viewer for JSON created by EditorJs",
