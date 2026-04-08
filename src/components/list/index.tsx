@@ -35,6 +35,7 @@ const ListRender = (props: ListRenderProps) => {
     return props.items.map((item, index) => (
         <ItemRender
             {...props}
+            // biome-ignore lint/suspicious/noArrayIndexKey: Items have no unique stable id
             key={`${props.depth}-${index}`}
             index={index}
             item={item}
